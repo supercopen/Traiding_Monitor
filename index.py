@@ -7,7 +7,6 @@ import plotly.offline as pyo
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent.absolute()
-print(BASE_DIR)
 
 env = environ.Env(
     # set casting, default value
